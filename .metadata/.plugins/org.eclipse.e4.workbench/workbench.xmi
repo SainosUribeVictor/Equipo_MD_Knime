@@ -40,6 +40,8 @@
           <tags>persp.newWizSC:org.knime.workbench.explorer.view.actions.NewWorkflowGroupWizard</tags>
           <tags>persp.viewSC:com.knime.workbench.hubview</tags>
           <tags>persp.perspSC:org.knime.reporting.designer.perspective.ReportingDesignerPerspective</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_b57oAZ2NEfCL3oOpqAQPBA" selectedElement="_b57oCp2NEfCL3oOpqAQPBA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_b57oAp2NEfCL3oOpqAQPBA" containerData="3000" selectedElement="_b57oBZ2NEfCL3oOpqAQPBA">
               <children xsi:type="basic:PartStack" xmi:id="_b57oA52NEfCL3oOpqAQPBA" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_b57oBJ2NEfCL3oOpqAQPBA">
@@ -78,7 +80,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_b57oEJ2NEfCL3oOpqAQPBA" containerData="3000" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_b57oEJ2NEfCL3oOpqAQPBA" containerData="3000" selectedElement="_b57oE52NEfCL3oOpqAQPBA" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_b57oEZ2NEfCL3oOpqAQPBA" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="3000" selectedElement="_b57oEp2NEfCL3oOpqAQPBA">
                   <children xsi:type="advanced:Placeholder" xmi:id="_b57oEp2NEfCL3oOpqAQPBA" elementId="org.eclipse.ui.views.ContentOutline" ref="_b55LwZ2NEfCL3oOpqAQPBA" closeable="true">
                     <tags>View</tags>
@@ -100,6 +102,16 @@
           </children>
         </children>
         <children xsi:type="advanced:Perspective" xmi:id="_cghG4J2NEfCL3oOpqAQPBA" elementId="org.knime.ui.java.perspective" contributorURI="platform:/plugin/org.knime.ui.java" selectedElement="_cghG4Z2NEfCL3oOpqAQPBA" label="KNIME Modern UI" iconURI="platform:/plugin/org.knime.ui.java/icons/knime.png">
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.text.quicksearch.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.externaltools.ExternalToolsSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.actionSet:org.knime.workbench.ui.global</tags>
           <children xsi:type="basic:Part" xmi:id="_cghG4Z2NEfCL3oOpqAQPBA" elementId="org.knime.ui.java.browser.view" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.browser.KnimeBrowserView" iconURI="platform:/plugin/org.knime.ui.java/icons/knime.png"/>
         </children>
       </children>
@@ -146,8 +158,8 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
-          <tags>active</tags>
           <tags>activeOnClose</tags>
+          <tags>active</tags>
         </children>
       </children>
     </sharedElements>
@@ -169,6 +181,7 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_cC1sYJ2NEfCL3oOpqAQPBA" elementId="org.knime.workbench.repository.view.RepositoryView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -272,7 +285,9 @@
     <trimBars xmi:id="_be546J2NEfCL3oOpqAQPBA" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left"/>
     <trimBars xmi:id="_be546Z2NEfCL3oOpqAQPBA" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right"/>
   </children>
-  <handlers xmi:id="_RzFlYOH4Eeqv_LafONhFZw" elementId="org.knime.ui.java.handler.switch" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.SwitchToWebUIHandler" command="_XgFkcOH4Eeqv_LafONhFZw"/>
+  <handlers xmi:id="_RzFlYOH4Eeqv_LafONhFZw" elementId="org.knime.ui.java.handler.switch" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.SwitchToWebUIHandler">
+    <command href="platform:/plugin/org.knime.ui.java/fragment.e4xmi#_XgFkcOH4Eeqv_LafONhFZw"/>
+  </handlers>
   <bindingTables xmi:id="_be546p2NEfCL3oOpqAQPBA" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_be54652NEfCL3oOpqAQPBA">
     <bindings xmi:id="_bghCc52NEfCL3oOpqAQPBA" keySequence="CTRL+1" command="_bfuZW52NEfCL3oOpqAQPBA"/>
     <bindings xmi:id="_bghCi52NEfCL3oOpqAQPBA" keySequence="CTRL+SHIFT+I" command="_bfuZN52NEfCL3oOpqAQPBA"/>
