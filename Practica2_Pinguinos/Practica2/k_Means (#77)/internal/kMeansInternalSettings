@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="8"/>
+    <entry key="ignoredColumns" type="xint" value="4"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="91"/>
+        <entry key="1" type="xint" value="128"/>
+        <entry key="2" type="xint" value="123"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="0.5425374625374624"/>
+        <entry key="1" type="xdouble" value="0.6877289377289377"/>
+        <entry key="2" type="xdouble" value="0.42689513875954577"/>
+        <entry key="3" type="xdouble" value="0.34668803418803407"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="0.22460227272727273"/>
+        <entry key="1" type="xdouble" value="0.5843563988095242"/>
+        <entry key="2" type="xdouble" value="0.26999470338983084"/>
+        <entry key="3" type="xdouble" value="0.23388671875000008"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="0.5601773835920177"/>
+        <entry key="1" type="xdouble" value="0.22406116918312047"/>
+        <entry key="2" type="xdouble" value="0.7658812181342158"/>
+        <entry key="3" type="xdouble" value="0.6600045167118335"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="8"/>
+        <entry key="0" type="xstring" value="bill_length_mm"/>
+        <entry key="1" type="xstring" value="bill_depth_mm"/>
+        <entry key="2" type="xstring" value="flipper_length_mm"/>
+        <entry key="3" type="xstring" value="body_mass_g"/>
+        <entry key="4" type="xstring" isnull="true" value=""/>
+        <entry key="5" type="xstring" isnull="true" value=""/>
+        <entry key="6" type="xstring" isnull="true" value=""/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
